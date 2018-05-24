@@ -129,6 +129,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\aaron-alvarado-25212-unsplash.jpg" />
+    <Content Include="Assets\alexandre-guimont-104183-unsplash.jpg" />
+    <Content Include="Assets\caleb-woods-601935-unsplash.jpg" />
+    <Content Include="Assets\colors.txt" />
+    <Content Include="Assets\luke-stackpoole-659482-unsplash.jpg" />
+    <Content Include="Assets\sebastian-pichler-53817-unsplash.jpg" />
+    <Content Include="Assets\vadim-sherbakov-41909-unsplash.jpg" />
+    <Content Include="Assets\valeriy-andrushko-406379-unsplash.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -137,6 +145,7 @@
     <Content Include="Content\bulma.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Assets\dorel-gnatiuc-57235-unsplash.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -150,6 +159,19 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="ApplicationInsights.config" />
     <Content Include="Content\bulma.css.map" />
+    <Content Include="fonts\Arber-Vintage-Free.otf" />
+    <Content Include="fonts\Arber-Vintage-Free.woff" />
+    <Content Include="fonts\Museo300-Regular.otf" />
+    <Content Include="fonts\Museo700-Regular.otf" />
+    <Content Include="fonts\OpenSans-Italic.ttf" />
+    <Content Include="fonts\OpenSans-Light.ttf" />
+    <Content Include="fonts\OpenSans-LightItalic.ttf" />
+    <Content Include="fonts\OpenSans-Regular.ttf" />
+    <Content Include="fonts\OpenSans-Semibold.ttf" />
+    <Content Include="fonts\OpenSans-SemiboldItalic.ttf" />
+    <Content Include="Assets\Mountaineer Line Icons.ai" />
+    <Content Include="Assets\Forest-Mountain-Adventure-Logo-Insignia.eps" />
+    <Content Include="Assets\Outdoor-adventure-wilderness-camping-insignia.eps" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

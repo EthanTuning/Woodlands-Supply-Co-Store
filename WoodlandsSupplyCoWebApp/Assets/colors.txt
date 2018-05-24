@@ -1,0 +1,5 @@
+#AC6424 //sienna
+#534C36 //dark olive green
+#C0B2A8 //rosy brown
+#1F2B26 //dark slate gray
+#78756E //dim gray
