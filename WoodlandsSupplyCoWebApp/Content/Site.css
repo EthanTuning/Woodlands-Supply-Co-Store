@@ -1,1 +1,63 @@
-﻿
+﻿@font-face {
+	font-family: Arber-Vintage-Free;
+	src: url('../Fonts/Arber-Vintage-Free.otf') format('opentype'), url('../Fonts/Arber-Vintage-Free.woff');
+}
+
+/* Base */
+
+.container h1 {
+    font-family: Arber-Vintage-Free;
+    font-weight: normal;
+}
+
+.navbar-menu a {
+    color: #AC6424;
+    font-size: 2em;
+    font-family: Arber-Vintage-Free;
+}
+
+.navbar-menu a:hover {
+    background: #C0B2A8;
+    color: #1F2B26;
+}
+
+.navbar,
+.navbar-menu,
+.navar-start {
+    background: #1F2B26;
+}
+
+/* Home Page */
+
+#hero-image {
+    background: url(/Assets/vadim-sherbakov-41909-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-image h1 {
+    color: #AC6424;
+    text-align: center;
+    margin-top: .5em;
+    font-size: 19em;
+}
+
+#logo {
+    text-align: center;
+    opacity: 0;
+    bottom: 34em;
+}
+
+#store-column h1,
+#blog-column h1 {
+    text-align: center;
+    font-size: 6em;
+    color: #AC6424;
+}
+
+#store-or-blog-section {
+    background: #1F2B26;
+}

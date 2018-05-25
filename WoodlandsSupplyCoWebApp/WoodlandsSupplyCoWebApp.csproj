@@ -137,6 +137,11 @@
     <Content Include="Assets\sebastian-pichler-53817-unsplash.jpg" />
     <Content Include="Assets\vadim-sherbakov-41909-unsplash.jpg" />
     <Content Include="Assets\valeriy-andrushko-406379-unsplash.jpg" />
+    <Content Include="Assets\Woodlands-Logo-Main.png" />
+    <Content Include="Assets\Woodlands-Logo-Mountains-Brown.png" />
+    <Content Include="Assets\Woodlands-Logo-Mountains-Green.png" />
+    <Content Include="Assets\Woodlands-Logo-Mountains-Light-Grey.png" />
+    <Content Include="Assets\Woodlands-Logo-Mountains-Yellow.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -147,39 +152,47 @@
     <Content Include="Default.aspx" />
     <Content Include="Assets\dorel-gnatiuc-57235-unsplash.jpg" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="ApplicationInsights.config" />
     <Content Include="Content\bulma.css.map" />
-    <Content Include="fonts\Arber-Vintage-Free.otf" />
-    <Content Include="fonts\Arber-Vintage-Free.woff" />
-    <Content Include="fonts\Museo300-Regular.otf" />
-    <Content Include="fonts\Museo700-Regular.otf" />
-    <Content Include="fonts\OpenSans-Italic.ttf" />
-    <Content Include="fonts\OpenSans-Light.ttf" />
-    <Content Include="fonts\OpenSans-LightItalic.ttf" />
-    <Content Include="fonts\OpenSans-Regular.ttf" />
-    <Content Include="fonts\OpenSans-Semibold.ttf" />
-    <Content Include="fonts\OpenSans-SemiboldItalic.ttf" />
+    <Content Include="Fonts\Arber-Vintage-Free.otf" />
+    <Content Include="Fonts\Arber-Vintage-Free.woff" />
+    <Content Include="Fonts\Museo300-Regular.otf" />
+    <Content Include="Fonts\Museo700-Regular.otf" />
+    <Content Include="Fonts\OpenSans-Italic.ttf" />
+    <Content Include="Fonts\OpenSans-Light.ttf" />
+    <Content Include="Fonts\OpenSans-LightItalic.ttf" />
+    <Content Include="Fonts\OpenSans-Regular.ttf" />
+    <Content Include="Fonts\OpenSans-Semibold.ttf" />
+    <Content Include="Fonts\OpenSans-SemiboldItalic.ttf" />
     <Content Include="Assets\Mountaineer Line Icons.ai" />
     <Content Include="Assets\Forest-Mountain-Adventure-Logo-Insignia.eps" />
     <Content Include="Assets\Outdoor-adventure-wilderness-camping-insignia.eps" />
+    <Content Include="Assets\Woodlands-Logo-Main.ai" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\anime.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery.onepage-scroll.js" />
+    <Content Include="Scripts\main-animations.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\one-page-scroll.js" />
+    <Content Include="Scripts\Shop.aspx" />
+    <Content Include="Scripts\velocity.min.js" />
+    <Content Include="Scripts\velocity.ui.min.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -201,6 +214,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Shop.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -223,6 +237,19 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
