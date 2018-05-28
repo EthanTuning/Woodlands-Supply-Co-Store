@@ -35,37 +35,37 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-    </form>
 
-    <header>
-        <nav id="main-menu" class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="Default.aspx"><img src="Assets/Woodlands-Logo-Mountains-Yellow.png" /></a>
-            </div>
-            <div id="navMenu" class="navbar-menu">
-                <div class="navbar-end">
-                    <a class="navbar-item" href="Default.aspx">Home</a>
-                    <a class="navbar-item" href="Shop.aspx">Shop</a>
-                    <a class="navbar-item" href="Blog.aspx">Blog</a>
-                    <a class="navbar-item" href="About.aspx">About</a>
-                    <a class="navbar-item" href="Cart.aspx">Cart</a>
+        <header>
+            <nav id="main-menu" class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="Default.aspx"><img src="Assets/Woodlands-Logo-Mountains-Yellow.png" /></a>
                 </div>
-            </div>
-            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </nav>
-    </header>
+                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="Default.aspx">Home</a>
+                        <a class="navbar-item" href="Shop.aspx">Shop</a>
+                        <a class="navbar-item" href="Blog.aspx">Blog</a>
+                        <a class="navbar-item" href="About.aspx">About</a>
+                        <a class="navbar-item" href="Cart.aspx">Cart</a>
+                    </div>
+                </div>
 
-    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+            </nav>
+        </header>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
     
-    <footer>
+        <footer>
                 
-    </footer>
-    <script src="<%= ResolveUrl("~/Scripts/anime.js") %>"></script>
-    <script src="<%= ResolveUrl("~/Scripts/main-animations.js") %>"></script>
-
+        </footer>
+        <script src="<%= ResolveUrl("~/Scripts/anime.js") %>"></script>
+        <script src="<%= ResolveUrl("~/Scripts/main-animations.js") %>"></script>
+    </form>
 </body>
 </html>

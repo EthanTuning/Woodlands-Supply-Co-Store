@@ -3,9 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
         <section class="hero is-fullheight">
-            <div id="hero-image" class="hero-body">
+            <div id="main-hero-image" class="hero-body">
                 <div class="container">
-                    <h1 id="hero-text" class="title">
+                    <h1 id="main-hero-text" class="title">
                         Go Explore
                     </h1>
                     <div id="logo" class="container">
@@ -18,10 +18,10 @@
             <div class="container">
                 <div class="columns">
                     <div id="store-column" class="column is-one-half">
-                        <h1 class="title">Shop</h1>
+                        <h1 class="title main-title">Shop</h1>
                     </div>
                     <div id="blog-column" class="column is-one-half">
-                        <h1 class="title">Blog</h1>
+                        <h1 class="title main-title">Blog</h1>
                     </div>
                 </div>
             </div>

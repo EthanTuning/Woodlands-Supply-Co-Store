@@ -129,11 +129,47 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="Assets\aaron-alvarado-25212-unsplash.jpg" />
     <Content Include="Assets\alexandre-guimont-104183-unsplash.jpg" />
     <Content Include="Assets\caleb-woods-601935-unsplash.jpg" />
+    <Content Include="Assets\Camping Icon.svg" />
     <Content Include="Assets\colors.txt" />
     <Content Include="Assets\luke-stackpoole-659482-unsplash.jpg" />
+    <Content Include="Assets\Products\Backpacking Accessories\Aventure Medical Kits Mountain Series Hiker Med Kit.jpg" />
+    <Content Include="Assets\Products\Backpacking Accessories\Black Biamond Trail Ergo Cork Trekking Poles.jpg" />
+    <Content Include="Assets\Products\Backpacking Accessories\Petzl Tikkina Headlamp.jpg" />
+    <Content Include="Assets\Products\Backpacking Accessories\Playtypus Big Zip LP Reservoir.jpg" />
+    <Content Include="Assets\Products\Backpacking Accessories\REI Co-op Bitty Sack 3 Pack.jpg" />
+    <Content Include="Assets\Products\Backpacking Accessories\REI Co-op Traverse 70 Hipbelt.jpg" />
+    <Content Include="Assets\Products\Backpacking Accessories\Suunto MC-2G Navigator Compass.jpg" />
+    <Content Include="Assets\Products\Backpacks\Granite Gear Crown2 60 Pack.jpg" />
+    <Content Include="Assets\Products\Backpacks\Kid Comfort 3 Child Carrier.jpg" />
+    <Content Include="Assets\Products\Backpacks\Osprey Atmos 65 Pack.jpg" />
+    <Content Include="Assets\Products\Backpacks\REI Co-op Trail 25.jpg" />
+    <Content Include="Assets\Products\Camping Accessories\ENO Double Deluxe Hammock.jpg" />
+    <Content Include="Assets\Products\Camping Accessories\ENO Sub7 Hammock.png" />
+    <Content Include="Assets\Products\Camping Accessories\Helinox Table One.jpg" />
+    <Content Include="Assets\Products\Camping Accessories\Kelty Discovery Low-Level Seat.jpg" />
+    <Content Include="Assets\Products\Camping Accessories\Mountain Summit Gear Roll Top Kitchen.jpg" />
+    <Content Include="Assets\Products\Camping Accessories\REI Co-op Camp Xtra Chair.jpg" />
+    <Content Include="Assets\Products\Camping Accessories\REI Co-op Trail Stool.jpg" />
+    <Content Include="Assets\Products\Clothing\Asolo Fulton Mid Hiking Boots.jpg" />
+    <Content Include="Assets\Products\Clothing\Marmot PreCip Rain Jacket.png" />
+    <Content Include="Assets\Products\Clothing\Marmot PreCip Safari Hat.jpg" />
+    <Content Include="Assets\Products\Clothing\Outdoor Research Plaza Down Vest.jpg" />
+    <Content Include="Assets\Products\Clothing\Patagonia Down Sweater.jpg" />
+    <Content Include="Assets\Products\Clothing\Salomon Quest 4D GTX Hiking Boots.jpg" />
+    <Content Include="Assets\Products\Clothing\Teva Voya Infinity Sandals.jpg" />
+    <Content Include="Assets\Products\Sleep\Big Agnes Newcomb SL 0 Sleeping Bag.jpg" />
+    <Content Include="Assets\Products\Sleep\Marmot Trestles 0 Sleepinng Bag.jpg" />
+    <Content Include="Assets\Products\Sleep\NEMO Canon -40 Sleeping Bag.jpg" />
+    <Content Include="Assets\Products\Sleep\REI Co-op Igneo 25 Sleeping Bag.jpg" />
+    <Content Include="Assets\Products\Sleep\Seat to Summit Traveller Tr I Sleeping Bag.jpg" />
+    <Content Include="Assets\Products\Tents\Big Agnes Fly Creek HV UL 1 mtnGLO Tent.png" />
+    <Content Include="Assets\Products\Tents\MSR FreeLite 3 Tent.png" />
+    <Content Include="Assets\Products\Tents\REI Co-op Half Dome 2 Plus Tent.jpg" />
+    <Content Include="Assets\Products\Tents\REI Co-op Passage 2 Tent.jpg" />
     <Content Include="Assets\sebastian-pichler-53817-unsplash.jpg" />
     <Content Include="Assets\vadim-sherbakov-41909-unsplash.jpg" />
     <Content Include="Assets\valeriy-andrushko-406379-unsplash.jpg" />
@@ -142,6 +178,12 @@
     <Content Include="Assets\Woodlands-Logo-Mountains-Green.png" />
     <Content Include="Assets\Woodlands-Logo-Mountains-Light-Grey.png" />
     <Content Include="Assets\Woodlands-Logo-Mountains-Yellow.png" />
+    <Content Include="BackpackAccessories.aspx" />
+    <Content Include="Backpacks.aspx" />
+    <Content Include="Blog.aspx" />
+    <Content Include="CampingAccessories.aspx" />
+    <Content Include="Cart.aspx" />
+    <Content Include="Clothing.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -178,6 +220,7 @@
     <Content Include="Assets\Forest-Mountain-Adventure-Logo-Insignia.eps" />
     <Content Include="Assets\Outdoor-adventure-wilderness-camping-insignia.eps" />
     <Content Include="Assets\Woodlands-Logo-Main.ai" />
+    <Content Include="Assets\Camping Icon.eps" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\anime.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -190,7 +233,6 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\one-page-scroll.js" />
-    <Content Include="Scripts\Shop.aspx" />
     <Content Include="Scripts\velocity.min.js" />
     <Content Include="Scripts\velocity.ui.min.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
@@ -216,6 +258,8 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Shop.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="Sleep.aspx" />
+    <Content Include="Tents.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config">
@@ -224,8 +268,57 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BackpackAccessories.aspx.cs">
+      <DependentUpon>BackpackAccessories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BackpackAccessories.aspx.designer.cs">
+      <DependentUpon>BackpackAccessories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backpacks.aspx.cs">
+      <DependentUpon>Backpacks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backpacks.aspx.designer.cs">
+      <DependentUpon>Backpacks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CampingAccessories.aspx.cs">
+      <DependentUpon>CampingAccessories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CampingAccessories.aspx.designer.cs">
+      <DependentUpon>CampingAccessories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clothing.aspx.cs">
+      <DependentUpon>Clothing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clothing.aspx.designer.cs">
+      <DependentUpon>Clothing.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -237,12 +330,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scripts\Shop.aspx.cs">
-      <DependentUpon>Shop.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Scripts\Shop.aspx.designer.cs">
-      <DependentUpon>Shop.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Shop.aspx.cs">
       <DependentUpon>Shop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -263,6 +350,20 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Sleep.aspx.cs">
+      <DependentUpon>Sleep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sleep.aspx.designer.cs">
+      <DependentUpon>Sleep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tents.aspx.cs">
+      <DependentUpon>Tents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tents.aspx.designer.cs">
+      <DependentUpon>Tents.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

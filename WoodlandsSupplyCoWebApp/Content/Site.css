@@ -1,9 +1,18 @@
 ﻿@font-face {
+	font-family: OpenSans-Regular;
+	src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: Arber-Vintage-Free;
 	src: url('../Fonts/Arber-Vintage-Free.otf') format('opentype'), url('../Fonts/Arber-Vintage-Free.woff');
 }
 
 /* Base */
+
+body {
+    font-family: OpenSans-Regular;
+}
 
 .container h1 {
     font-family: Arber-Vintage-Free;
@@ -17,7 +26,7 @@
 }
 
 .navbar-menu a:hover {
-    background: #C0B2A8;
+    background: white;
     color: #1F2B26;
 }
 
@@ -27,9 +36,38 @@
     background: #1F2B26;
 }
 
+.navbar-burger span {
+    background-color: #AC6424;
+}
+
+.main-title {
+    font-family: Arber Vintage Free;
+    text-align: center;
+    font-size: 4em;
+    color: #AC6424;
+}
+
+.secondary-title {
+    font-family: Arber Vintage Free;
+    text-align: center;
+    font-size: 2.5em;
+    color: #1F2B26;
+}
+
+#hero-text {
+    color: #AC6424;
+    text-align: center;
+    font-size: 8em;
+}
+
+.product-image {
+    text-align: center;
+    padding-top: 10em;
+}
+
 /* Home Page */
 
-#hero-image {
+#main-hero-image {
     background: url(/Assets/vadim-sherbakov-41909-unsplash.jpg);
     height: 100%;
     background-position: center;
@@ -38,7 +76,7 @@
     position: relative;
 }
 
-#hero-image h1 {
+#main-hero-text {
     color: #AC6424;
     text-align: center;
     margin-top: .5em;
@@ -51,13 +89,80 @@
     bottom: 34em;
 }
 
-#store-column h1,
-#blog-column h1 {
-    text-align: center;
-    font-size: 6em;
-    color: #AC6424;
+/* Shop Page */
+
+#shop-hero-image {
+    background: url(/Assets/luke-stackpoole-659482-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-#store-or-blog-section {
-    background: #1F2B26;
+/* Blog Page */
+
+#blog-hero-image {
+    background: url(/Assets/valeriy-andrushko-406379-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+/* About Page */
+
+#about-hero-image {
+    background: url(/Assets/aaron-alvarado-25212-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Cart Page */
+
+#cart-hero-image {
+    background: url(/Assets/dorel-gnatiuc-57235-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Product Pages */
+
+.product-title {
+    font-family: Arber Vintage Free;
+    text-align: center;
+    font-size: 1.75em;
+    color: #1F2B26;
+}
+
+.column img {
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.column {
+    position: relative;
+}
+
+.column h4 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.product-image {
+    text-align: center;
+}
+
+.modal-product-image {
+    padding-bottom: 10em;
+}
+
+/*  */
