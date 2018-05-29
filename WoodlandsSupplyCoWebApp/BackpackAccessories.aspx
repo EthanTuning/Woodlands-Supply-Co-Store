@@ -16,7 +16,7 @@
             <div class="columns is-multiline">
                 <div class="column is-one-third product-image">
                     <h3 class="title product-title">Aventure Medical Kits Mountain Series Hiker Med Kit</h3>
-                    <a id="ba-product1" onclick="showModal('1')"><img src="Assets/Products/Backpacking Accessories/Aventure Medical Kits Mountain Series Hiker Med Kit.jpg" /></a>
+                    <a id="ba-product1" onclick="showModal('1')"><img src="Assets/Products/Backpacking Accessories/Aventure Medical Hiker Med Kit.jpg" /></a>
                     <h4 class="title product-title">$20</h4>
                 </div>
                 <div class="column is-one-third product-image">

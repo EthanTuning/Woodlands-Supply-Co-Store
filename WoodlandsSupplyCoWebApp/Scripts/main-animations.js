@@ -62,7 +62,7 @@ function showModal(product) {
     if (product == 1) {
 
         $(".modal-card-title").val("Aventure Medical Kits Mountain Series Hiker Med Kit");
-        $(".modal-product-image").attr("src", "Assets/Products/Backpacking Accessories/Aventure Medical Kits Mountain Series Hiker Med Kit.jpg");
+        $(".modal-product-image").attr("src", "Assets/Products/Backpacking Accessories/Aventure Medical Hiker Med Kit.jpg");
         $(".modal-product-description").val("Description");
         $(".modal-product-price").val("$20");
     }
