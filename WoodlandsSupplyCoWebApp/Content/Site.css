@@ -1,26 +1,26 @@
 ﻿@font-face {
 	font-family: Arber-Vintage-Free;
-	src: url('../Fonts/Arber-Vintage-Free.otf') format('opentype'), url('../Fonts/Arber-Vintage-Free.woff');
+	src: url('Fonts/Arber-Vintage-Free.otf') format('opentype'), url('Fonts/Arber-Vintage-Free.woff');
 }
 
 @font-face {
 	font-family: OpenSans-Regular;
-	src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+	src: url('Fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: OpenSans-Regular;
-	src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+	src: url('Fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: OpenSans-Regular;
-	src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+	src: url('Fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: Arber-Vintage-Free;
-	src: url('../Fonts/Arber-Vintage-Free.otf') format('opentype'), url('../Fonts/Arber-Vintage-Free.woff');
+	src: url('Fonts/Arber-Vintage-Free.otf') format('opentype'), url('Fonts/Arber-Vintage-Free.woff');
 }
 
 /* Base */
