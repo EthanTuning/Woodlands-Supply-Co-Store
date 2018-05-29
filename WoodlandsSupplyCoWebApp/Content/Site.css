@@ -1,4 +1,19 @@
 ﻿@font-face {
+	font-family: Arber-Vintage-Free;
+	src: url('../Fonts/Arber-Vintage-Free.otf') format('opentype'), url('../Fonts/Arber-Vintage-Free.woff');
+}
+
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: OpenSans-Regular;
 	src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
 }
@@ -11,18 +26,16 @@
 /* Base */
 
 body {
-    font-family: OpenSans-Regular;
+    font-family: Arber-Vintage-Free;
 }
 
 .container h1 {
-    font-family: Arber-Vintage-Free;
     font-weight: normal;
 }
 
 .navbar-menu a {
     color: #AC6424;
     font-size: 2em;
-    font-family: Arber-Vintage-Free;
 }
 
 .navbar-menu a:hover {
@@ -41,14 +54,12 @@ body {
 }
 
 .main-title {
-    font-family: Arber Vintage Free;
     text-align: center;
     font-size: 4em;
     color: #AC6424;
 }
 
 .secondary-title {
-    font-family: Arber Vintage Free;
     text-align: center;
     font-size: 2.5em;
     color: #1F2B26;
@@ -63,6 +74,12 @@ body {
 .product-image {
     text-align: center;
     padding-top: 10em;
+}
+
+.button {
+    border: solid;
+    border-radius: 30px;
+    border-color: #1F2B26;
 }
 
 /* Home Page */
@@ -87,6 +104,71 @@ body {
     text-align: center;
     opacity: 0;
     bottom: 34em;
+}
+
+#mission-statement {
+    background: #1F2B26;
+    color: #AC6424;
+    padding: 10em;
+}
+
+#mission-statement p {
+    font-family: OpenSans-Regular;
+    font-size: 2em;
+}
+
+#store-or-blog-section {
+    background: url(/Assets/sebastian-pichler-53817-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10em;
+}
+
+#store-column,
+#blog-column {
+    padding-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    background: #1F2B26;
+    color: #AC6424;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    border-radius: 30px;
+}
+
+#store-column p,
+#blog-column p {
+    font-family: OpenSans-Regular;
+    text-align: center;
+    font-size: 2em;
+}
+
+#store-column a,
+#blog-column a {
+    left: 35%;
+    padding-right: 3em;
+    padding-left: 3em;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    background: none;
+    color: #AC6424;
+    border-width: 2px;
+    border-color: white;
+}
+
+#store-column a:hover,
+#blog-column a:hover {
+    background: white;
+    color: #1F2B26;
+}
+
+#store-column h1,
+#blog-column h1 {
+    padding-bottom: 2em;
+
 }
 
 /* Shop Page */
@@ -136,7 +218,6 @@ body {
 /* Product Pages */
 
 .product-title {
-    font-family: Arber Vintage Free;
     text-align: center;
     font-size: 1.75em;
     color: #1F2B26;
@@ -165,4 +246,42 @@ body {
     padding-bottom: 10em;
 }
 
-/*  */
+.modal input {
+    background: transparent;
+    border: none;
+}
+
+.modal-product-price {
+    font-family: Arber Vintage Free;
+    font-size: 2em;
+}
+
+.modal-card-title {
+    font-family: Arber-Vintage-Free;
+    font-size: 1.75em;
+}
+
+/* footer */
+
+footer {
+    background: #1F2B26;
+    color: #AC6424;
+    font-size: x-large;
+}
+
+/* Cart Page */
+
+table {
+    font-size: 2em;
+    text-align: center;
+}
+
+.cart-total {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.check-out-btn {
+    left: 45%;
+    font-size: 1.5em
+}

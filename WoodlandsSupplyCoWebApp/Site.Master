@@ -62,7 +62,13 @@
         <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
     
         <footer>
-                
+            <div class="container">
+                <div class="content has-text-centered">
+                    <p>
+                        Created by: Ethan Tuning
+                    </p>
+                </div>
+            </div>
         </footer>
         <script src="<%= ResolveUrl("~/Scripts/anime.js") %>"></script>
         <script src="<%= ResolveUrl("~/Scripts/main-animations.js") %>"></script>

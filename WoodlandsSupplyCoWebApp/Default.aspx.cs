@@ -9,6 +9,13 @@ namespace WoodlandsSupplyCoWebApp {
     public partial class _Default : Page {
         protected void Page_Load(object sender, EventArgs e) {
 
+            List<Product> temp = (List<Product>)Session["Products"];
+
+            if (temp == null) {
+
+                List<Product> products = new List<Product>();
+                Session["Products"] = products;
+            }
         }
     }
 }
