@@ -29,7 +29,7 @@ namespace WoodlandsSupplyCoWebApp {
 
         public override string ToString() {
 
-            return mFirstName + " " + mLastName + " " + mEmail + " " + mAddress + " " + mCity + " " + mState + " " + mZip.ToString();
+            return mFirstName + "\n" + mLastName + "\n" + mEmail + "\n" + mAddress + "\n" + mCity + "\n" + mState + "\n" + mZip.ToString();
 
         }
 

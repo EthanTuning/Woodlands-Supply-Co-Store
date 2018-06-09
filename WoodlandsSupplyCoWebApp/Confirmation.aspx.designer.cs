@@ -13,6 +13,15 @@ namespace WoodlandsSupplyCoWebApp {
     public partial class Confirmation {
         
         /// <summary>
+        /// InvoiceContainer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel InvoiceContainer;
+        
+        /// <summary>
         /// invoiceTable control.
         /// </summary>
         /// <remarks>

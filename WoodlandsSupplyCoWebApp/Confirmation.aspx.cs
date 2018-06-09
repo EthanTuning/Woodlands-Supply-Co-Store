@@ -2,8 +2,10 @@
 using SendGrid.Helpers.Mail;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Mail;
+using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -38,13 +40,20 @@ namespace WoodlandsSupplyCoWebApp {
 
             Customer tempCustomer = (Customer)Session["Customer"];
 
+            StringBuilder sb = new StringBuilder();
+            StringWriter sw = new StringWriter(sb);
+            HtmlTextWriter hw = new HtmlTextWriter(sw);
+            InvoiceContainer.RenderControl(hw);
+            string html = sb.ToString();
+
             var apiKey = System.Environment.GetEnvironmentVariable("SENDGRID_APIKEY");
             var client = new SendGridClient(apiKey);
 
             var msg = new SendGridMessage() {
                 From = new EmailAddress("etuning5@hotmail.com", "Woodlands Supply Co."),
                 Subject = "Order Confirmation",
-                PlainTextContent = invoiceTable.ToString()
+                PlainTextContent = "Shipping Information" + tempCustomer.ToString(),
+                HtmlContent = html
             };
 
             msg.AddTo(new EmailAddress(tempCustomer.GetEmail(), "Test User"));
