@@ -43,9 +43,8 @@ namespace WoodlandsSupplyCoWebApp {
 
             var msg = new SendGridMessage() {
                 From = new EmailAddress("etuning5@hotmail.com", "Woodlands Supply Co."),
-                Subject = "Hello World from the SendGrid CSharp SDK!",
-                PlainTextContent = "Hello, Email!",
-                HtmlContent = "<strong>Hello, Email!</strong>"
+                Subject = "Order Confirmation",
+                PlainTextContent = invoiceTable.ToString()
             };
 
             msg.AddTo(new EmailAddress(tempCustomer.GetEmail(), "Test User"));
