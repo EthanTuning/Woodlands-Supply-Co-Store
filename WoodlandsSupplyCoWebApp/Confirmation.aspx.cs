@@ -52,11 +52,11 @@ namespace WoodlandsSupplyCoWebApp {
             var msg = new SendGridMessage() {
                 From = new EmailAddress("etuning5@hotmail.com", "Woodlands Supply Co."),
                 Subject = "Order Confirmation",
-                PlainTextContent = "Shipping Information" + tempCustomer.ToString(),
+                PlainTextContent = tempCustomer.ToString(),
                 HtmlContent = html
             };
 
-            msg.AddTo(new EmailAddress(tempCustomer.GetEmail(), "Test User"));
+            msg.AddTo(new EmailAddress(tempCustomer.GetEmail(), "Customer"));
             var response = client.SendEmailAsync(msg);
 
             List<Product> products = new List<Product>();
