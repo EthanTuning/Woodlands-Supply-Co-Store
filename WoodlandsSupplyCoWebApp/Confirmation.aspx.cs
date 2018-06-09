@@ -34,6 +34,7 @@ namespace WoodlandsSupplyCoWebApp {
             orderTotal = orderTotal + shippingCost;
             OrderTotal.Text = "$" + orderTotal.ToString();
             OrderWeight.Text = orderWeight.ToString() + " oz.";
+
         }
 
         protected void PlaceOrderBtn_Click(object sender, EventArgs e) {
@@ -52,8 +53,8 @@ namespace WoodlandsSupplyCoWebApp {
             var msg = new SendGridMessage() {
                 From = new EmailAddress("etuning5@hotmail.com", "Woodlands Supply Co."),
                 Subject = "Order Confirmation",
-                PlainTextContent = "Shipping Information" + tempCustomer.ToString(),
-                HtmlContent = "<p>asdfasd</p>"
+                PlainTextContent = "Shipping Information: " + tempCustomer.ToString(),
+                HtmlContent = html
             };
 
             msg.AddTo(new EmailAddress(tempCustomer.GetEmail(), "Customer"));
@@ -64,6 +65,8 @@ namespace WoodlandsSupplyCoWebApp {
             
             Response.Redirect("Shop.aspx");
 
+        }
+        public override void VerifyRenderingInServerForm(Control control) {
         }
     }
 }
