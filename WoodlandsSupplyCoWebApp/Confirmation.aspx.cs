@@ -52,8 +52,8 @@ namespace WoodlandsSupplyCoWebApp {
             var msg = new SendGridMessage() {
                 From = new EmailAddress("etuning5@hotmail.com", "Woodlands Supply Co."),
                 Subject = "Order Confirmation",
-                PlainTextContent = tempCustomer.ToString(),
-                HtmlContent = html
+                PlainTextContent = "Shipping Information" + tempCustomer.ToString(),
+                HtmlContent = "<p>asdfasd</p>"
             };
 
             msg.AddTo(new EmailAddress(tempCustomer.GetEmail(), "Customer"));
