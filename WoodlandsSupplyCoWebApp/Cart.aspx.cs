@@ -12,26 +12,38 @@ namespace WoodlandsSupplyCoWebApp {
 
             List<Product> productsToBuy = (List<Product>)Session["Products"];
             double cartTotal = 0;
+            double cartWeight = 0;
 
             if (productsToBuy != null) {
                 foreach (Product product in productsToBuy) {
 
                     product.CalculateTotalPrice();
                     cartTotal += product.GetTotalPrice();
+                    cartWeight += product.GetWeight();
                     invoiceTable.Rows.Add(product.MakeTableRow());
 
                 }
             }
 
             CartTotal.Text = "$" + cartTotal.ToString();
+            CartWeight.Text = cartWeight.ToString() + " oz.";
         }
 
         protected void CheckOutBtn_Click(object sender, EventArgs e) {
 
-            List<Product> products = new List<Product>();
-            Session["Products"] = products;
+            Customer tempCustomer = (Customer)Session["Customer"];
 
-            Response.Redirect(Request.RawUrl);
+            if(tempCustomer == null) {
+                
+                Response.Redirect("Account.aspx");
+
+            }
+
+            if(tempCustomer != null) {
+                
+                Response.Redirect("Confirmation.aspx");
+
+            }
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Cart" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Cart.aspx.cs" Inherits="WoodlandsSupplyCoWebApp.Cart" %>
+﻿<%@ Page Title="Order Confirmation" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Confirmation.aspx.cs" Inherits="WoodlandsSupplyCoWebApp.Confirmation" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -6,7 +6,7 @@
         <div id="cart-hero-image" class="hero-body">
             <div class="container">
                 <h1 id="hero-text" class="title">
-                    Your Cart
+                    Order Details
                 </h1>
             </div>
         </div>
@@ -30,13 +30,15 @@
                 <center>
                     <br />
                     <asp:Label ID="Weight" CssClass="cart-total" runat="server" Text="Weight: "></asp:Label>
-                    <asp:Label ID="CartWeight" CssClass="cart-total" runat="server"></asp:Label>
+                    <asp:Label ID="OrderWeight" CssClass="cart-total" runat="server"></asp:Label>
                     <br />
-                    <asp:Label ID="Total" CssClass="cart-total" runat="server" Text="Sub Total: "></asp:Label>
-                    <asp:Label ID="CartTotal" CssClass="cart-total" runat="server"></asp:Label>
+                    <asp:Label ID="ShippingCost" CssClass="cart-weight" runat="server"></asp:Label>
+                    <br />
+                    <asp:Label ID="Total" CssClass="cart-total" runat="server" Text="Order Total: "></asp:Label>
+                    <asp:Label ID="OrderTotal" CssClass="cart-total" runat="server"></asp:Label>
                     <br />
                     <br />
-                    <asp:Button ID="CheckOutBtn" runat="server" CssClass="button check-out-btn" Text="Check Out" OnClick="CheckOutBtn_Click"/>
+                    <asp:Button ID="PlaceOrderBtn" runat="server" CssClass="button check-out-btn" Text="Place Order" OnClick="PlaceOrderBtn_Click"/>
                 </center>
             </div>
         </div>

@@ -10,7 +10,7 @@
 namespace WoodlandsSupplyCoWebApp {
     
     
-    public partial class Cart {
+    public partial class Confirmation {
         
         /// <summary>
         /// invoiceTable control.
@@ -31,13 +31,22 @@ namespace WoodlandsSupplyCoWebApp {
         protected global::System.Web.UI.WebControls.Label Weight;
         
         /// <summary>
-        /// CartWeight control.
+        /// OrderWeight control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CartWeight;
+        protected global::System.Web.UI.WebControls.Label OrderWeight;
+        
+        /// <summary>
+        /// ShippingCost control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ShippingCost;
         
         /// <summary>
         /// Total control.
@@ -49,21 +58,21 @@ namespace WoodlandsSupplyCoWebApp {
         protected global::System.Web.UI.WebControls.Label Total;
         
         /// <summary>
-        /// CartTotal control.
+        /// OrderTotal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CartTotal;
+        protected global::System.Web.UI.WebControls.Label OrderTotal;
         
         /// <summary>
-        /// CheckOutBtn control.
+        /// PlaceOrderBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CheckOutBtn;
+        protected global::System.Web.UI.WebControls.Button PlaceOrderBtn;
     }
 }

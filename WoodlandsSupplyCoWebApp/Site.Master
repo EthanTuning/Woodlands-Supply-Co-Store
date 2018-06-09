@@ -54,7 +54,7 @@
                         <a class="navbar-item" href="Blog.aspx">Blog</a>
                         <a class="navbar-item" href="About.aspx">About</a>
                         <a class="navbar-item" href="Cart.aspx">Cart</a>
-                        <a class="navbar-item" href="Login.aspx">Login</a>
+                        <a class="navbar-item" href="Account.aspx">Account</a>
                     </div>
                 </div>
 

@@ -27,12 +27,12 @@
         <section id="store-or-blog-section" class="section">
             <div class="container">
                 <div class="columns">
-                    <div id="store-column" class="column is-one-half">
+                    <div id="store-column" class="column is-half">
                         <h1 class="title main-title">Shop</h1>
                         <a class="button is-rounded" href="Shop.aspx">Go</a>
                         <p>See what we have for sale.</p>
                     </div>
-                    <div id="blog-column" class="column is-one-half">
+                    <div id="blog-column" class="column is-half">
                         <h1 class="title main-title">Blog</h1>
                         <a class="button is-rounded" href="Blog.aspx">Go</a>
                         <p>See what we have to say.</p>
