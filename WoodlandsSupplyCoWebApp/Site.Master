@@ -14,6 +14,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://unpkg.com/ionicons@4.1.2/dist/css/ionicons.min.css" rel="stylesheet">
 </head>
 <body data-hijacking="on" data-animation="parallax">
     <form runat="server">
@@ -53,6 +54,7 @@
                         <a class="navbar-item" href="Blog.aspx">Blog</a>
                         <a class="navbar-item" href="About.aspx">About</a>
                         <a class="navbar-item" href="Cart.aspx">Cart</a>
+                        <a class="navbar-item" href="Login.aspx">Login</a>
                     </div>
                 </div>
 

@@ -20,12 +20,11 @@
                         <th>Name</th>
                         <th>Price</th>
                         <th>Quantity</th>
+                        <th>Weight</th>
                         <th>Total Price</th>
                     </tr>
                 </thead>
-                <tbody>
-
-                </tbody>
+                <tbody></tbody>
             </table>
             <div class="container">
                 <br />

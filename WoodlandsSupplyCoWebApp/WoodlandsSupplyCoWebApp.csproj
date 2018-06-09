@@ -115,18 +115,6 @@
     <Reference Include="Microsoft.AI.PerfCounterCollector">
       <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.5.1\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.5.1\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.WindowsServer">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.5.1\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AI.Web">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.5.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
@@ -140,7 +128,7 @@
     <Content Include="Assets\Products\Backpacking Accessories\Black Biamond Trail Ergo Cork Trekking Poles.jpg" />
     <Content Include="Assets\Products\Backpacking Accessories\Petzl Tikkina Headlamp.jpg" />
     <Content Include="Assets\Products\Backpacking Accessories\Playtypus Big Zip LP Reservoir.jpg" />
-    <Content Include="Assets\Products\Backpacking Accessories\REI Co-op Bitty Sack 3 Pack.jpg" />
+    <Content Include="Assets\Products\Backpacking Accessories\REI Co-op Ditty Sack 3 Pack.jpg" />
     <Content Include="Assets\Products\Backpacking Accessories\REI Co-op Traverse 70 Hipbelt.jpg" />
     <Content Include="Assets\Products\Backpacking Accessories\Suunto MC-2G Navigator Compass.jpg" />
     <Content Include="Assets\Products\Backpacks\Granite Gear Crown2 60 Pack.jpg" />
@@ -223,6 +211,7 @@
     <Content Include="Assets\Camping Icon.eps" />
     <None Include="Properties\PublishProfiles\WoodlandsSupplyCoWebApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Login.aspx" />
     <Content Include="Scripts\anime.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -329,6 +318,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

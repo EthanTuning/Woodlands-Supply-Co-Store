@@ -23,37 +23,37 @@ namespace WoodlandsSupplyCoWebApp {
 
             if (Request["ProductName"].ToString() == "ENO Double Deluxe Hammock") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(2239, "ENO Double Deluxe Hammock", 60, quantity));
+                products.Add(new Product(2239, "ENO Double Deluxe Hammock", 60, 28, quantity));
             }
 
             if (Request["ProductName"].ToString() == "ENO Sub7 Hammock") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(3234, "ENO Sub7 Hammock", 35, quantity));
+                products.Add(new Product(3234, "ENO Sub7 Hammock", 35, 6.5, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Helinox Table One") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(3235, "Helinox Table One", 90, quantity));
+                products.Add(new Product(3235, "Helinox Table One", 90, 24, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Kelty Discovery Low-Level Seat") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(3236, "Kelty Discovery Low-Level Seat", 100, quantity));
+                products.Add(new Product(3236, "Kelty Discovery Low-Level Seat", 100, 246, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Mountain Summit Gear Roll Top Kitchen") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(3237, "Mountain Summit Gear Roll Top Kitchen", 100, quantity));
+                products.Add(new Product(3237, "Mountain Summit Gear Roll Top Kitchen", 100, 163.2, quantity));
             }
 
             if (Request["ProductName"].ToString() == "REI Co-op Camp Xtra Chair") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(3238, "REI Co-op Camp Xtra Chair", 25, quantity));
+                products.Add(new Product(3238, "REI Co-op Camp Xtra Chair", 25, 160, quantity));
             }
 
             if (Request["ProductName"].ToString() == "REI Co-op Trail Stool") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(3239, "REI Co-op Trail Stool", 15, quantity));
+                products.Add(new Product(3239, "REI Co-op Trail Stool", 15, 18, quantity));
             }
 
             Session["Products"] = products;

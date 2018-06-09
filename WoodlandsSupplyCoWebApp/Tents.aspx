@@ -49,6 +49,8 @@
                 </div>
                 <input id="ProductDescription" name="ProductDescription" class="modal-product-description" readonly="true"/>
                 <br />
+                <input id="ProductWeight" name="ProductWeight" class="modal-product-weight" readonly="true"/>
+                <br />
                 <input id="ProductPrice" name="ProductPrice" class="modal-product-price" readonly="true"/>
                 <br />
                 <label>Quantity: <input id="ProductQuantity" name="ProductQuantity" type="number" style="width:45px;" min="1" max="50" value="1"/></label>

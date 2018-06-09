@@ -23,27 +23,27 @@ namespace WoodlandsSupplyCoWebApp {
 
             if (Request["ProductName"].ToString() == "Big Agnes Newcomb SL 0 Sleeping Bag") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(5235, "Big Agnes Newcomb SL 0 Sleeping Bag", 165, quantity));
+                products.Add(new Product(5235, "Big Agnes Newcomb SL 0 Sleeping Bag", 165, 72, quantity));
             }
 
             if (Request["ProductName"].ToString() == "TMarmot Trestles 0 Sleepinng Bag") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(5236, "TMarmot Trestles 0 Sleepinng Bag", 120, quantity));
+                products.Add(new Product(5236, "TMarmot Trestles 0 Sleepinng Bag", 120, 79, quantity));
             }
 
             if (Request["ProductName"].ToString() == "NEMO Canon -40 Sleeping Bag") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(5237, "NEMO Canon -40 Sleeping Bag", 790, quantity));
+                products.Add(new Product(5237, "NEMO Canon -40 Sleeping Bag", 790, 77, quantity));
             }
 
             if (Request["ProductName"].ToString() == "REI Co-op Igneo 25 Sleeping Bag") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(5238, "REI Co-op Igneo 25 Sleeping Bag", 195, quantity));
+                products.Add(new Product(5238, "REI Co-op Igneo 25 Sleeping Bag", 195, 28, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Seat to Summit Traveller Tr I Sleeping Bag") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(5239, "Seat to Summit Traveller Tr I Sleeping Bag", 230, quantity));
+                products.Add(new Product(5239, "Seat to Summit Traveller Tr I Sleeping Bag", 230, 16.8, quantity));
             }
 
             Session["Products"] = products;

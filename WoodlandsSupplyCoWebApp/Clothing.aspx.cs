@@ -23,37 +23,37 @@ namespace WoodlandsSupplyCoWebApp {
 
             if (Request["ProductName"].ToString() == "Asolo Fulton Mid Hiking Boots") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(4234, "Asolo Fulton Mid Hiking Boots", 140, quantity));
+                products.Add(new Product(4234, "Asolo Fulton Mid Hiking Boots", 140, 33.2, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Marmot PreCip Rain Jacket") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(4235, "Marmot PreCip Rain Jacket", 70, quantity));
+                products.Add(new Product(4235, "Marmot PreCip Rain Jacket", 70, 11, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Marmot PreCip Safari Hat") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(4236, "Marmot PreCip Safari Hat", 45, quantity));
+                products.Add(new Product(4236, "Marmot PreCip Safari Hat", 45, 10, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Outdoor Research Plaza Down Vest") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(4237, "Outdoor Research Plaza Down Vest", 175, quantity));
+                products.Add(new Product(4237, "Outdoor Research Plaza Down Vest", 175, 15, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Patagonia Down Sweater") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(4238, "Patagonia Down Sweater", 145, quantity));
+                products.Add(new Product(4238, "Patagonia Down Sweater", 145, 13.1, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Salomon Quest 4D GTX Hiking Boots") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(4239, "Salomon Quest 4D GTX Hiking Boots", 170, quantity));
+                products.Add(new Product(4239, "Salomon Quest 4D GTX Hiking Boots", 170, 45.2, quantity));
             }
 
             if (Request["ProductName"].ToString() == "Teva Voya Infinity Sandals") {
                 int quantity = Int32.Parse(Request["ProductQuantity"].ToString());
-                products.Add(new Product(5234, "Teva Voya Infinity Sandals", 40, quantity));
+                products.Add(new Product(5234, "Teva Voya Infinity Sandals", 40, 18.3, quantity));
             }
             Session["Products"] = products;
 
