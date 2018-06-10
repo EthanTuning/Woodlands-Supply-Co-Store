@@ -71,8 +71,8 @@
                 <label>Quantity: <input id="ProductQuantity" name="ProductQuantity" type="number" style="width:45px;" min="1" max="50" value="1"/></label>
             </section>
             <footer class="modal-card-foot">
-                <asp:Button ID="AddBtn" CssClass="button" Text="Add To Cart" runat="server" OnClick="AddBtn_Click"/>
-                <a class="button" href="Cart.aspx">View Cart</a>
+                <asp:Button ID="AddBtn" CssClass="modal-button" Text="Add To Cart" runat="server" OnClick="AddBtn_Click"/>
+                <a class="modal-button" href="Cart.aspx">View Cart</a>
             </footer>
         </div>
         <button class="modal-close"></button>

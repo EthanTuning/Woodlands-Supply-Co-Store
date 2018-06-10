@@ -27,15 +27,23 @@
         <section id="store-or-blog-section" class="section">
             <div class="container">
                 <div class="columns">
-                    <div id="store-column" class="column is-half">
-                        <h1 class="title main-title">Shop</h1>
-                        <a class="button is-rounded" href="Shop.aspx">Go</a>
-                        <p>See what we have for sale.</p>
+                    <div id="store-column" class="column ">
+                        <center>
+                            <h1 class="title main-title">Shop</h1>
+                            <i class="icon ion-md-cart"></i>
+                            <br />
+                            <a class="button" href="Shop.aspx">Go</a>
+                            <p>See what we have for sale.</p>
+                        </center>
                     </div>
-                    <div id="blog-column" class="column is-half">
-                        <h1 class="title main-title">Blog</h1>
-                        <a class="button is-rounded" href="Blog.aspx">Go</a>
-                        <p>See what we have to say.</p>
+                    <div id="blog-column" class="column">
+                        <center>    
+                            <h1 class="title main-title">Blog</h1>
+                            <i class="icon ion-md-chatbubbles"></i>
+                            <br />
+                            <a class="button" href="Blog.aspx">Go</a>
+                            <p>See what we have to say.</p>
+                        </center>
                     </div>
                 </div>
             </div>

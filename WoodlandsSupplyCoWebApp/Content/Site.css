@@ -76,12 +76,6 @@ body {
     padding-top: 10em;
 }
 
-.button {
-    border: solid;
-    border-radius: 30px;
-    border-color: #1F2B26;
-}
-
 /* Home Page */
 
 #main-hero-image {
@@ -132,7 +126,7 @@ body {
     padding-top: 1em;
     margin-left: 2em;
     margin-right: 2em;
-    background: #1F2B26;
+    background: white;
     color: #AC6424;
     margin-top: 10em;
     margin-bottom: 10em;
@@ -146,29 +140,15 @@ body {
     font-size: 2em;
 }
 
-#store-column a,
-#blog-column a {
-    left: 35%;
-    padding-right: 3em;
-    padding-left: 3em;
-    margin-bottom: 1.5em;
-    font-size: 1.5em;
-    background: none;
-    color: #AC6424;
-    border-width: 2px;
-    border-color: white;
-}
-
-#store-column a:hover,
-#blog-column a:hover {
-    background: white;
-    color: #1F2B26;
+#store-or-blog-section i {
+    font-size: 10em;
+    padding-bottom: .75em;
 }
 
 #store-column h1,
 #blog-column h1 {
-    padding-bottom: 2em;
-
+    padding-bottom: 1em;
+    color: #1F2B26
 }
 
 /* Shop Page */
@@ -310,4 +290,47 @@ table {
     margin-top: 1em;
     margin-bottom: 3em;
     border-radius: 30px;
+}
+
+/* Buttons */
+
+.button {
+    border: solid;
+    border-radius: 30px;
+    border-color: #AC6424;
+    font-size: 1.55em;
+    background: #1F2B26;
+    border-width: 2px;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #AC6424;
+}
+
+.button:hover {
+    background: white;
+    color: #1F2B26;
+}
+
+.modal-button,
+input[type=submit] {
+    border: solid;
+    border-radius: 30px;
+    border-color: #AC6424;
+    font-size: 1em;
+    background: #1F2B26;
+    border-width: 2px;
+    color: #AC6424;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-family: Arber-Vintage-Free;
+}
+
+input[type=submit] {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.modal-button:hover {
+    background: white;
+    color: #1F2B26;
 }
