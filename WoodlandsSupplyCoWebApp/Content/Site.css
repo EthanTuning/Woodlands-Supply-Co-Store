@@ -109,6 +109,7 @@ body {
 #mission-statement p {
     font-family: OpenSans-Regular;
     font-size: 2em;
+    color: white;
 }
 
 #store-or-blog-section {
@@ -223,7 +224,7 @@ body {
 }
 
 .modal-product-image {
-    padding-bottom: 10em;
+    padding-bottom: 4em;
 }
 
 .modal input {
@@ -241,7 +242,13 @@ body {
     font-size: 1.75em;
 }
 
-/* footer */
+.modal-product-description {
+    width: 100%;
+    resize: none;
+    border: none;
+}
+
+/* Footer */
 
 footer {
     background: #1F2B26;
@@ -303,7 +310,7 @@ table {
     border-width: 2px;
     padding-left: 2em;
     padding-right: 2em;
-    color: #AC6424;
+    color: white;
 }
 
 .button:hover {

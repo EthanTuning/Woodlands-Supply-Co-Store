@@ -62,9 +62,9 @@
                 <div class="product-image">
                     <img class="modal-product-image" src="" />
                 </div>
-                <input id="ProductDescription" name="ProductDescription" class="modal-product-description" readonly="true"/>
+                <textarea id="ProductDescription" name="ProductDescription" class="modal-product-description" readonly="true"></textarea>
                 <br />
-                <input id="ProductWeight" name="ProductWeight" class="modal-product-weight" readonly="true"/>
+                <label>Weight:</label><input id="ProductWeight" name="ProductWeight" class="modal-product-weight" readonly="true"/>
                 <br />
                 <input id="ProductPrice" name="ProductPrice" class="modal-product-price" readonly="true"/>
                 <br />
