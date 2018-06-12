@@ -27,7 +27,7 @@
         <section id="store-or-blog-section" class="section">
             <div class="container">
                 <div class="columns">
-                    <div id="store-column" class="column ">
+                    <div id="store-column" class="column">
                         <center>
                             <h1 class="title main-title">Shop</h1>
                             <i class="icon ion-md-cart"></i>

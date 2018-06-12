@@ -26,19 +26,32 @@
                 </thead>
                 <tbody></tbody>
             </table>
-            <div class="container">
-                <center>
-                    <br />
-                    <asp:Label ID="Weight" CssClass="cart-total" runat="server" Text="Weight: "></asp:Label>
-                    <asp:Label ID="CartWeight" CssClass="cart-total" runat="server"></asp:Label>
-                    <br />
-                    <asp:Label ID="Total" CssClass="cart-total" runat="server" Text="Sub Total: "></asp:Label>
-                    <asp:Label ID="CartTotal" CssClass="cart-total" runat="server"></asp:Label>
-                    <br />
-                    <br />
-                    <asp:Button ID="CheckOutBtn" runat="server" CssClass="button check-out-btn" Text="Check Out" OnClick="CheckOutBtn_Click"/>
-                </center>
+        </div>
+        <div class="container">
+            <br />
+            <br />
+            <div class="cart-info-labels">
+                <asp:Label ID="Weight" CssClass="cart-weight" runat="server" Text="Total Weight: " />
+                <asp:Label ID="CartWeight" CssClass="cart-weight" runat="server" />
             </div>
+            <br />
+            <br />
+            <div class="cart-info-labels">
+                <p id="cart-weight-description">**Estimated shipping cost: $0.46 x cart weight.</p>
+            </div>
+            <br />
+            <br />
+            <div class="cart-info-labels">
+                <asp:Label ID="Total" CssClass="cart-total" runat="server" Text="Sub Total: " />
+                <asp:Label ID="CartTotal" CssClass="cart-total" runat="server" />
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <center>
+                <asp:Button ID="CheckOutBtn" runat="server" CssClass="button check-out-btn" Text="Check Out" OnClick="CheckOutBtn_Click"/>
+            </center>
         </div>
     </section>
 </asp:Content>

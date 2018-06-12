@@ -263,16 +263,27 @@ table {
     text-align: center;
 }
 
+.cart-info-labels {
+    float: right;
+}
+
 .cart-total {
-    text-align: center;
+    text-align: right;
     font-size: 3.5em;
 }
 
-.check-out-btn {
-    font-size: 1.5em
+.cart-weight {
+    text-align: right;
+    font-size: 2em;
 }
 
-/* Login Page */
+#cart-weight-description {
+    text-align: right;
+    font-family: OpenSans-Regular;
+    font-size: .8em;
+}
+
+/* Account Page */
 
 #login-or-create-section {
     background: url(/Assets/sebastian-pichler-53817-unsplash.jpg);
@@ -281,21 +292,23 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 19.5em;
+    padding: 10em;
 }
 
-#login-or-create-section input {
+#login-or-create-section input[type=text],
+#login-or-create-section input[type=email],
+#login-or-create-section input[type=password] {
     width: 50%;
     border-color: #1F2B26
 }
 
-.account-form {
+#create-form,
+#login-form {
     padding-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-right: 2em;
     background: white;
-    margin-top: 1em;
-    margin-bottom: 3em;
+    margin-top: 10em;
+    margin-bottom: 10em;
     border-radius: 30px;
 }
 
@@ -340,4 +353,14 @@ input[type=submit] {
 .modal-button:hover {
     background: white;
     color: #1F2B26;
+}
+
+input.check-out-btn {
+    font-size: 1.5em;
+}
+
+.remove-btn {
+    font-size: .5em;
+    padding-bottom: 1.2em;
+    text-align: center;
 }

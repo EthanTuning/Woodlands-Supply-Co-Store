@@ -13,6 +13,7 @@ namespace WoodlandsSupplyCoWebApp {
         private int mQuantity;
         private double mWeight;
         private double mTotalPrice;
+        private bool mToRemove;
 
         public Product(int sku, string name, double price, double weight, int quantity) {
 
@@ -22,6 +23,7 @@ namespace WoodlandsSupplyCoWebApp {
             mQuantity = quantity;
             mWeight = weight;
             mTotalPrice = 0;
+            mToRemove = false;
 
         }
 
@@ -34,6 +36,18 @@ namespace WoodlandsSupplyCoWebApp {
         public double GetWeight() {
 
             return mWeight;
+
+        }
+
+        public bool GetToRemove() {
+
+            return mToRemove;
+
+        }
+
+        public void SetToRemove() {
+
+            mToRemove = true;
 
         }
 
